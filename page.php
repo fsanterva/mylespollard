@@ -3,7 +3,7 @@
 <!-- CONTENT WRAPPER
     ============================================= -->
 
-<div id="content" class="clearfix">
+<div id="content" class="<?php echo ($post->post_name == 'blog')? 'clearfix custom-blog-content' : 'clearfix'; ?>">
 	
 	<?php while ( have_posts() ) : the_post(); 
 	
