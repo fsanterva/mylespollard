@@ -99,6 +99,7 @@ footer {
 
 .footer-newsletter__form .form__field input[type="submit"]{
     width: 100%;
+	background-color: #5280D7 !important;
 }
 
 
@@ -137,4 +138,21 @@ Media
     #copyright {
         padding-left: 15px;
     }
+}
+
+
+/* DAME's CODE */
+@media all and (max-width: 768px) {
+  .outer-nav.left {
+      left: 15%;
+  }
+}
+@media all and (max-width: 480px) {
+  .outer-nav.left {
+    left: 10%;
+    width: 50% !important;
+  }
+  .outer-nav a {
+    white-space: normal;
+  }
 }

@@ -17,3 +17,6 @@ function get_what_page() {
     // return get_what_page_pres(get_page($id)); 
     // return false;
 }
+
+define('WP_DEBUG', false);
+define('WP_DEBUG_DISPLAY', false);
