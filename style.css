@@ -10,6 +10,8 @@
  Text Domain:  seniman-child
 */
 
+.athena { display: none; }
+
 @import url("../seniman/style.css");
 
 /* =Theme customization starts here

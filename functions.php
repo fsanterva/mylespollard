@@ -6,17 +6,22 @@ function seniman_child_enqueue_styles() {
 }
 
 
+
+
+
+
+
+/*  Debugging purposes WP */
+
 add_action('wp_head', 'get_what_page' );
 function get_what_page() {
     global $post;
-    $id = $post->id;
-    function get_what_page_pres($g_var) {
-        echo '<pre>' . print_r($g_var, true) . '</pre>'; 
-    }
-    // return get_what_page_pres(get_page($id)->post_type); 
-    // return get_what_page_pres(get_page($id)); 
-    // return false;
+    echo print_r('<span class="athena">' . get_page($post->id)->post_type . ' <a href="' . get_bloginfo("url") . '/wp-admin/post.php?post=' . get_the_ID($post->id)  . '&action=edit">wp-admin edit</a>' . ' ' . get_the_ID($post->id) ) . '</span>';
 }
+
+
+
 
 define('WP_DEBUG', false);
 define('WP_DEBUG_DISPLAY', false);
+
