@@ -1,0 +1,35 @@
+node_modules/
+
+# et-cache/
+# languages/
+# upgrade/
+# uploads/
+# mu-plugins/
+
+aiowps_backups/
+backups-dup-lite/
+blogs.dir/
+w3tc-config/
+
+twentytwentytwo/
+
+wp-admin/
+wp-content/
+wp-includes/
+ 
+wamp/index.php
+wamp/license.txt
+wamp/readme.html
+wamp/wp-activate.php
+wamp/wp-blog-header.php
+wamp/wp-comments-post.php
+wamp/wp-config-sample.php
+wamp/wp-cron.php
+wamp/wp-links-opml.php
+wamp/wp-load.php
+wamp/wp-login.php
+wamp/wp-mail.php
+wamp/wp-settings.php
+wamp/wp-signup.php
+wamp/wp-trackback.php
+wamp/xmlrpc.php
