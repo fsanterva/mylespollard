@@ -1,0 +1,1 @@
+<h1 class="single-portfolio-title"><?php the_title(); ?></h1>

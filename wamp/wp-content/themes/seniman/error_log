@@ -1,0 +1,12 @@
+[26-Feb-2022 15:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function seniman_header_choice() in /home/mylespol/public_html/wp-content/themes/seniman/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-content/themes/seniman/404.php on line 1
+[27-Feb-2022 18:42:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function seniman_header_choice() in /home/mylespol/public_html/wp-content/themes/seniman/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-content/themes/seniman/404.php on line 1
+[28-Feb-2022 20:48:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function seniman_header_choice() in /home/mylespol/public_html/wp-content/themes/seniman/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-content/themes/seniman/404.php on line 1

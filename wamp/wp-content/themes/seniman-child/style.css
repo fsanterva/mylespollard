@@ -1,0 +1,160 @@
+/*
+ Theme Name:   Seniman Child
+ Theme URI:    http://seniman1.themesawesome.com/
+ Description:  Seniman Child Theme
+ Author:       Themes Awesome
+ Author URI:   http://www.themesawesome.com
+ Template:     seniman
+ Version:      1.0.0
+ Tags:         custom-colors, custom-menu, featured-images, theme-options
+ Text Domain:  seniman-child
+*/
+
+.athena { display: none; }
+
+@import url("../seniman/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.custom-blog-content {
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+header .logo-image, header .logo .logo-title {
+	max-width: 420px;
+}
+
+.footer-bottom {
+    border-top: unset !important;
+}
+
+.footer-bottom .foot-col:nth-of-type(3) {
+	color: #fff;
+}
+
+#header {
+	padding-bottom: 1.5em;
+}
+
+.tax-mec_category .mec-container {
+    padding-top: 220px;
+    padding-bottom: 150px;
+    min-height: 300px;
+}
+
+/*
+Footer 
+***************** */
+
+
+.footer-widget-wrapper {
+    background-color: #000 !important;
+}
+
+
+.footer-widget-wrapper .footer-widget {
+    padding-top: 5em;
+    padding-bottom: 3em;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    float: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+footer .widget-footer a {
+    display: block;
+}
+
+
+footer .widget-footer img {
+    width: 340px;
+}
+ 
+/*
+Footer Newsletter
+***************** */
+footer {
+	background: #000;
+}
+
+.footer-newsletter__form {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-newsletter__form span {
+	color: #fff;	
+	display: block;
+	margin-bottom: 1em;
+}
+
+.footer-newsletter__form .form__field {
+	display: inline-block;
+    min-height: 100%;
+}
+
+.footer-newsletter__form .form__field input[type="submit"]{
+    width: 100%;
+	background-color: #5280D7 !important;
+}
+
+
+/*
+Media
+***** */
+
+@media only screen and (max-width: 425px) {
+	.footer-newsletter__form .form__field:first-child input {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.logo-footer img {
+		display: block;
+    margin: 0 auto;
+    max-width: 250px;
+	}
+}
+
+@media only screen and (max-width: 922px) {
+    .footer-widget-wrapper .footer-widget {
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+    }
+    .widget-footer {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #copyright {
+        padding-left: 15px;
+    }
+}
+
+
+/* DAME's CODE */
+@media all and (max-width: 768px) {
+  .outer-nav.left {
+      left: 15%;
+  }
+}
+@media all and (max-width: 480px) {
+  .outer-nav.left {
+    left: 10%;
+    width: 50% !important;
+  }
+  .outer-nav a {
+    white-space: normal;
+  }
+}

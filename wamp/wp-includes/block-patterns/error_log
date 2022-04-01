@@ -1,0 +1,28 @@
+[16-Oct-2021 03:25:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[16-Oct-2021 03:25:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-large-title-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-large-title-posts.php on line 9
+[16-Oct-2021 03:25:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[16-Oct-2021 03:25:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[16-Oct-2021 03:25:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[16-Oct-2021 03:25:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/query-standard-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/query-standard-posts.php on line 9
+[16-Oct-2021 03:25:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/mylespol/public_html/wp-includes/block-patterns/social-links-shared-background-color.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-patterns/social-links-shared-background-color.php on line 9

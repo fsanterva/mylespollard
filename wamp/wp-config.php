@@ -2,6 +2,10 @@
 define( 'WP_CACHE', true );
 
 
+
+
+
+
 /**
 
  * The base configuration for WordPress
@@ -43,17 +47,20 @@ define( 'WP_CACHE', true );
 
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', "mylespol_newlive" );
+/* define( 'DB_NAME', "mylespol_newlive" ); */
+define( 'DB_NAME', "mylespollard" );
 
 
 /** MySQL database username */
 
-define( 'DB_USER', "mylespol_sifumaster" );
+/* define( 'DB_USER', "mylespol_sifumaster" ); */
+define( 'DB_USER', "root" );
 
 
 /** MySQL database password */
 
-define( 'DB_PASSWORD', "fbMX8cmCf&nq" );
+/* define( 'DB_PASSWORD', "fbMX8cmCf&nq" ); */
+define( 'DB_PASSWORD', "" );
 
 
 /** MySQL hostname */

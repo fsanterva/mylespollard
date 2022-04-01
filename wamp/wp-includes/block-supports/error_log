@@ -1,0 +1,20 @@
+[16-Oct-2021 03:26:18 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/mylespol/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-supports/border.php on line 170
+[16-Oct-2021 03:26:27 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/mylespol/public_html/wp-includes/block-supports/duotone.php:426
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-supports/duotone.php on line 426
+[16-Oct-2021 03:26:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/mylespol/public_html/wp-includes/block-supports/elements.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-supports/elements.php on line 71
+[16-Oct-2021 03:26:48 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/mylespol/public_html/wp-includes/block-supports/layout.php:99
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-supports/layout.php on line 99
+[16-Oct-2021 03:26:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Block_Supports' not found in /home/mylespol/public_html/wp-includes/block-supports/spacing.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/mylespol/public_html/wp-includes/block-supports/spacing.php on line 89

@@ -1,0 +1,109 @@
+.toplevel_page_dilate-form-utility #adminmenu li.current a{
+  background: #27ae60;
+  font-weight: 600;
+  color: #ffffff
+}
+.toplevel_page_dilate-form-utility #adminmenu li.current a:FOCUS .dashicons-before::BEFORE{
+  color: #ffffff !important
+}
+.toplevel_page_dilate-form-utility #wpcontent{
+  background: url(images/white-bg.png);
+}
+.toplevel_page_dilate-form-utility h2{
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  color: #34495e
+}
+.toplevel_page_dilate-form-utility .customtable thead,
+.toplevel_page_dilate-form-utility .customtable tfoot {
+  background: #34495e;
+}
+.toplevel_page_dilate-form-utility .customtable thead th,
+.toplevel_page_dilate-form-utility .customtable tfoot th {
+  border: 0;
+}
+.toplevel_page_dilate-form-utility .customtable thead th.small,
+.toplevel_page_dilate-form-utility .customtable tfoot th.small {
+  width: 100px;
+}
+.toplevel_page_dilate-form-utility .customtable thead th span,
+.toplevel_page_dilate-form-utility .customtable tfoot th span {
+  color: #ecf0f1;
+  font-weight: 600;
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td{
+  /border-bottom: 1px solid rgba(49, 67, 76, .1) !important;
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr.alternate {
+  background: none;
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td{
+  font-size: 14px;
+  padding: 10px 15px;
+  line-height: 2;
+  color: #7f8c8d;
+  border-bottom: 1px solid rgba(76, 91, 99, .05)
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td a:HOVER {
+  text-decoration: underline
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td a {
+  position: relative
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td a > img {
+  position: absolute;
+  right: -15px;
+  top: 5px;
+  width: 10px;
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td:nth-child(3),
+.toplevel_page_dilate-form-utility .customtable tbody tr td:nth-child(4){
+  padding: 0 1px; 
+  border: 0
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td input {
+  border: 0;
+  box-shadow: none;
+  background: #fafafa;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  color: #34495e;
+  cursor: pointer
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td input:HOVER {
+  background: #ecf0f1;
+}
+.toplevel_page_dilate-form-utility .customtable tbody tr td input:FOCUS {
+  background: #ecf0f1;
+  /border: 1px solid rgba(76, 91, 99, .3);
+  cursor: auto
+}
+.toplevel_page_dilate-form-utility .button-submit,
+.toplevel_page_dilate-form-utility .button-refresh,
+.toplevel_page_dilate-form-utility .button-export {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.toplevel_page_dilate-form-utility .button-submit {
+  background: #2ecc71;
+}
+.toplevel_page_dilate-form-utility .button-submit:HOVER {
+  background: #27ae60;
+}
+.toplevel_page_dilate-form-utility .button-refresh {
+  background: #34495e;
+}
+.toplevel_page_dilate-form-utility .button-refresh:HOVER {
+  background: #2c3e50;
+}
+.toplevel_page_dilate-form-utility .button-export {
+  background: #34495e;
+}
+.toplevel_page_dilate-form-utility .button-export:HOVER {
+  background: #2c3e50;
+}
