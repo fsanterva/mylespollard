@@ -3,8 +3,8 @@ Tags: widget, button, slider, hero, google maps, image, carousel, features, icon
 Requires at least: 4.2
 Tested up to: 5.9
 Requires PHP: 5.6.20
-Stable tag: 1.32.2
-Build time: 2022-03-23T20:06:46+02:00
+Stable tag: 1.32.3
+Build time: 2022-04-08T17:33:07+02:00
 License: GPLv3 or later
 Contributors: gpriday, braam-genis, alexgso
 Donate link: https://siteorigin.com/downloads/premium/
@@ -88,9 +88,13 @@ SiteOrigin Premium includes access to our professional email support service, pe
 
 == Screenshots ==
 
-1. Manage which widgets you want to be enabled or disabled.
-2. The Button Widget shows the clean, standard interface all the widgets use.
-3. An example of the Button Widget.
+1. Manage which widgets you want to be enabled or disabled at Plugins > SiteOrigin Widgets.
+2. SiteOrigin Widgets inserted in SiteOrigin Page Builder.
+3. Editing a Hero in SiteOrigin Page Builder.
+4. Inserting Tabs in the SiteOrigin Widget Block.
+5. SiteOrigin Widgets inserted in a SiteOrigin Layout Block.
+6. Inserting a Contact Form into a theme widget area at Appearance > Widgets.
+7. Inserting an Accordion into a theme widget area via the block-based widget screen.
 
 == Frequently Asked Questions ==
 
@@ -99,6 +103,13 @@ SiteOrigin Premium includes access to our professional email support service, pe
 The Widgets Bundle global interface is available at Plugins > SiteOrigin Widgets. Widgets can be enabled or disabled as needed. If a widget offers global settings, you can access those via the Settings button next to each applicable widget.
 
 == Changelog ==
+
+= 1.32.3 - 08 April 2022 =
+* Anything Carousel: Restored Autoplay functionality if Navigation Arrows are disabled.
+* Features: Improved CLS by inlining column alignment.
+* Hero and Layout Slider: Improved CLS by inlining height value on load.
+* Image Grid: Renamed `Display` settings group to `Settings`.
+* Updated Google Fonts list.
 
 = 1.32.2 - 23 March 2022 =
 * Anything Carousel: Restored arrow functionality. Resolved `Less_Exception_Compiler` notice.

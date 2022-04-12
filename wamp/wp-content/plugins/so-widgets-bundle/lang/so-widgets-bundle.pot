@@ -180,7 +180,7 @@ msgstr ""
 msgid "Deactivate"
 msgstr ""
 
-#: admin/tpl/admin.php:90, widgets/contact/contact.php:59, widgets/google-map/google-map.php:60, widgets/testimonial/testimonial.php:101, base/inc/widgets/base-carousel.class.php:249
+#: admin/tpl/admin.php:90, widgets/contact/contact.php:59, widgets/google-map/google-map.php:60, widgets/image-grid/image-grid.php:95, widgets/testimonial/testimonial.php:101, base/inc/widgets/base-carousel.class.php:249
 msgid "Settings"
 msgstr ""
 
@@ -296,7 +296,7 @@ msgstr ""
 msgid "When opening the panel, scroll the user to the top of the panel."
 msgstr ""
 
-#: widgets/accordion/accordion.php:72, widgets/accordion/accordion.php:85, widgets/anything-carousel/anything-carousel.php:52, widgets/anything-carousel/anything-carousel.php:68, widgets/contact/contact.php:48, widgets/cta/cta.php:64, widgets/editor/editor.php:35, widgets/features/features.php:140, widgets/icon/icon.php:68, widgets/post-carousel/post-carousel.php:260, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/simple-masonry/simple-masonry.php:44, widgets/simple-masonry/simple-masonry.php:85, widgets/social-media-buttons/social-media-buttons.php:54, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:34, widgets/testimonial/testimonial.php:41, widgets/video/video.php:33, base/inc/fields/posts.class.php:108
+#: widgets/accordion/accordion.php:72, widgets/accordion/accordion.php:85, widgets/anything-carousel/anything-carousel.php:52, widgets/anything-carousel/anything-carousel.php:68, widgets/contact/contact.php:48, widgets/cta/cta.php:64, widgets/editor/editor.php:34, widgets/features/features.php:140, widgets/icon/icon.php:68, widgets/post-carousel/post-carousel.php:260, widgets/price-table/price-table.php:42, widgets/price-table/price-table.php:61, widgets/simple-masonry/simple-masonry.php:44, widgets/simple-masonry/simple-masonry.php:85, widgets/social-media-buttons/social-media-buttons.php:54, widgets/tabs/tabs.php:71, widgets/tabs/tabs.php:84, widgets/taxonomy/taxonomy.php:34, widgets/testimonial/testimonial.php:41, widgets/video/video.php:33, base/inc/fields/posts.class.php:108
 msgid "Title"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "Content"
 msgstr ""
 
-#: widgets/accordion/accordion.php:95, widgets/editor/editor.php:45
+#: widgets/accordion/accordion.php:95, widgets/editor/editor.php:44
 msgid "Automatically add paragraphs"
 msgstr ""
 
@@ -468,7 +468,7 @@ msgstr ""
 msgid "SiteOrigin Button"
 msgstr ""
 
-#: widgets/button/button.php:33, widgets/contact/contact.php:801, widgets/features/features.php:346, widgets/headline/headline.php:37, widgets/social-media-buttons/social-media-buttons.php:33, base/inc/widgets/base-slider.class.php:222
+#: widgets/button/button.php:33, widgets/contact/contact.php:801, widgets/features/features.php:368, widgets/headline/headline.php:37, widgets/social-media-buttons/social-media-buttons.php:33, base/inc/widgets/base-slider.class.php:222
 msgid "Responsive Breakpoint"
 msgstr ""
 
@@ -674,6 +674,10 @@ msgstr ""
 
 #: widgets/button/button.php:277
 msgid "Adds a rel attribute to the button link."
+msgstr ""
+
+#: widgets/button/button.php:471
+msgid "Add a beautiful tooltip to the Button Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
 #: widgets/contact/contact.php:4, widgets/contact/contact.php:19
@@ -1217,19 +1221,19 @@ msgstr ""
 msgid "Get more font customization options with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/editor/editor.php:4, widgets/editor/editor.php:19
+#: widgets/editor/editor.php:4, widgets/editor/editor.php:18
 msgid "A widget which allows editing of content using the TinyMCE editor."
 msgstr ""
 
-#: widgets/editor/editor.php:17
+#: widgets/editor/editor.php:16
 msgid "SiteOrigin Editor"
 msgstr ""
 
-#: widgets/editor/editor.php:55
+#: widgets/editor/editor.php:54
 msgid "Enable the \"Automatically add paragraphs\" setting by default."
 msgstr ""
 
-#: widgets/editor/editor.php:171
+#: widgets/editor/editor.php:168
 msgid "Use Google Fonts right inside the Editor Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -1361,15 +1365,15 @@ msgstr ""
 msgid "Open more URL in a new window"
 msgstr ""
 
-#: widgets/features/features.php:348
+#: widgets/features/features.php:370
 msgid "This setting controls when the features widget will collapse for mobile devices. The default value is 520px"
 msgstr ""
 
-#: widgets/features/features.php:357
+#: widgets/features/features.php:379
 msgid "Add an feature icon title tooltip with %sSiteOrigin Premium%s"
 msgstr ""
 
-#: widgets/features/features.php:362
+#: widgets/features/features.php:384
 msgid "Use Google Fonts right inside the Features Widget with %sSiteOrigin Premium%s"
 msgstr ""
 
@@ -2186,10 +2190,6 @@ msgstr ""
 
 #: widgets/image-grid/image-grid.php:83, widgets/social-media-buttons/social-media-buttons.php:74, widgets/testimonial/testimonial.php:89
 msgid "URL"
-msgstr ""
-
-#: widgets/image-grid/image-grid.php:95
-msgid "Display"
 msgstr ""
 
 #: widgets/image-grid/image-grid.php:109
@@ -3397,15 +3397,15 @@ msgstr ""
 msgid "Background video opacity"
 msgstr ""
 
-#: base/inc/widgets/base-slider.class.php:404
+#: base/inc/widgets/base-slider.class.php:414
 msgid "display slide %s"
 msgstr ""
 
-#: base/inc/widgets/base-slider.class.php:409
+#: base/inc/widgets/base-slider.class.php:419
 msgid "next slide"
 msgstr ""
 
-#: base/inc/widgets/base-slider.class.php:415
+#: base/inc/widgets/base-slider.class.php:425
 msgid "previous slide"
 msgstr ""
 

@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.table-responsive.table-hover {
+    padding: 5px;
+    margin-top: 25px;
+}
+
+select#plgstatus {
+    display: inline;
+    max-width: 10rem;
+}
+
+#plgstatus {
+    margin: 5px;
+}
