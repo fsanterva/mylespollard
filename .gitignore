@@ -2,16 +2,17 @@ node_modules/
  
 
 et-cache/
+updraft/
 
-wp-content/*
-!wamp/wp-content/uploads/
-!wamp/wp-content/themes/
-!wamp/wp-content/plugins/
-!wamp/wp-content/ngg/
+#wp-content/*
+#!wamp/wp-content/uploads/
+#!wamp/wp-content/themes/
+#!wamp/wp-content/plugins/
+#!wamp/wp-content/ngg/
 
 
-themes/*
-!wamp/wp-content/themes/Divi/
-!wamp/wp-content/themes/divi-child-framework/
+#themes/*
+#!wamp/wp-content/themes/Divi/
+#!wamp/wp-content/themes/divi-child-framework/
 
 
